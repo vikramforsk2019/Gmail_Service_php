@@ -1,0 +1,23 @@
+CREATE TABLE `post` (
+  `postid` int(11) NOT NULL AUTO_INCREMENT,
+  `cityid` int(20) NOT NULL,
+  `nearid` int(50) NOT NULL,
+  `pid` int(50) NOT NULL,
+  `catagary` varchar(50) NOT NULL,
+  `ptype` varchar(50) NOT NULL,
+  `gender` varchar(50) NOT NULL,
+  `properties` varchar(20) NOT NULL,
+  `bedrooms` varchar(20) NOT NULL,
+  `furnish` varchar(255) NOT NULL,
+  `title` varchar(255) DEFAULT NULL,
+  `email` varchar(40) DEFAULT NULL,
+  `price` varchar(40) NOT NULL,
+  `img1` varchar(200) DEFAULT NULL,
+  `img2` varchar(200) DEFAULT NULL,
+  `img3` varchar(200) DEFAULT NULL,
+  `img4` varchar(200) DEFAULT NULL,
+  `date` varchar(200) DEFAULT NULL,
+  `address` varchar(500) DEFAULT NULL,
+  `pathh` varchar(900) DEFAULT NULL,
+  PRIMARY KEY (`postid`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 |
